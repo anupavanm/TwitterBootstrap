@@ -1,0 +1,119 @@
+img.profilepic
+{
+    height : 50px;
+    width  : 50px ;  
+}
+
+body { 
+    
+    padding-top: 70px; 
+}
+
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.card.hovercard .cardheader {
+    background: url("http://lorempixel.com/850/280/nature/4/");
+    background-size: cover;
+    height: 135px;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+
+.profile-info
+{
+    
+    margin: 8px 14px 0 14px;
+}
+
+li.custom-list-item{
+    
+    padding-top: 5px;
+}
+
+li.custom-gallery
+{
+    padding-left: 6px;
+    padding-top: 5px;
+
+}
+.ThumbnailPic
+{        
+    
+    width: 105px;
+    height: 105px;
+}
+.img-fullWidth
+{
+    width: 100%;
+    padding: 4px 12px 4px 12px;
+}
+
+.content-div
+{
+    
+    padding:  4px 12px 4px 12px;
+}
+.img-seventy
+{
+    min-width: 40px;
+    width : 100%;
+   
+}
+
+.img-fixed-seventy
+{
+    
+    width : 70%;
+}
+
+.img-fifty
+{
+    min-width: 30px;
+    width : 100%;
+   
+}
+.bg-img
+{
+    background-image: url(/images/bckg.jpg);
+    width : 100%;
+    min-height: 400px;
+    position: relative;
+    
+}
+.centered-block
+{
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 300px;    
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;top: 50%;
+}
+.bottom-block
+{
+    position: absolute;
+    top:90%;
+    
+}
